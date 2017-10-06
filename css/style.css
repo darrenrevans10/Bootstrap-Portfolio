@@ -104,8 +104,7 @@ p {
   These rules take effect when the browser's width
   is either 980px or less.
 */
-@media screen and (max-width: 980px) {
-  /* The body's bg color will be #333 */
+@media screen and (max-width: 991px) {
 .img-responsive {
  	margin: auto;
  	display: block;
@@ -115,6 +114,67 @@ p {
 	margin-bottom: 15px;
 }
 
+#Github {
+	position: relative;
+}
+#Stackoverflow {
+	position: absolute;
+	top: -127px;
+	left: 86px;
+}
+#Linkedin {
+	position: absolute;
+	top: -129px;
+	left: 490px;
+}
+p {
+	margin-top: 30px;
+}
+
 }
 
 
+
+
+@media screen and (max-width: 768px) {
+.img-responsive {
+ 	margin: auto;
+ 	display: block;
+ }
+
+.work img {
+	margin-bottom: 15px;
+}
+.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+
+.img-responsive {
+ 	margin: auto;
+ 	display: block;
+ }
+
+.work img {
+	margin-bottom: 15px;
+}
+
+#Linkedin {
+	position: absolute;
+	top: -129px;
+	left: 413px;
+}
